@@ -1,7 +1,7 @@
 const restify = require('restify');
 
 const googleMapsClient = require('@google/maps').createClient({
-    key: 'AIzaSyBzZxMv7u9jQKcmQ9GW62D24FbeLTSu6fI',
+    key: '',
     Promise: Promise
 });
 
@@ -14,8 +14,8 @@ const knex = require('knex')({
     client: 'mysql',
     connection: {
         host: 'localhost',
-        user: 'admin',
-        password: 'admin',
+        user: '',
+        password: '',
         database: 'geo'
     }
 });
