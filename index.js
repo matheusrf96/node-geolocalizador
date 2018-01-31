@@ -1,7 +1,7 @@
 const restify = require('restify');
 
 const googleMapsClient = require('@google/maps').createClient({
-    key: '',
+    key: 'AIzaSyBzZxMv7u9jQKcmQ9GW62D24FbeLTSu6fI',
     Promise: Promise
 });
 
@@ -54,7 +54,7 @@ server.post('/geolocation', (req, res, next) => {
 });
 
 server.get(/\/(.*)?.*/, restify.plugins.serveStatic({
-    directory: __dirname + '/dist',
+    directory: __dirname + '/src',
     default: 'index.html'
 }));
 
