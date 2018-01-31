@@ -1,0 +1,27 @@
+body{
+    background-color: #0f2f2f;
+}
+
+.add{
+    position: fixed;
+    right: 40px;
+    bottom: 25px;
+    background: rgb(48, 142, 170) !important;
+    z-index: 3;
+}
+
+.spinner-pos{
+    position: fixed;
+    right: 55px;
+    bottom: 100px;
+    z-index: 3;
+}
+
+/* ======= Material Design Lite =======*/
+.demo-card-wide.mdl-card {
+    margin: 10px;
+}
+
+.demo-card-wide > .mdl-card__menu {
+    color: #333;
+}
